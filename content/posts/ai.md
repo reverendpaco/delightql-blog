@@ -5,6 +5,13 @@ slug = 'llms'
 tags =  ["AI"]
 +++
 
+
+> [!NOTE]
+> The date on this post is the date of **writing**,
+> and not the date of publication which is 2026-10-21.
+>
+
+
 Delightql has been built with the help of AI. This post is a discussion of that
 word _help_ both as an accounting of the full extent to which AI was utilized
 and as a means to ramble.

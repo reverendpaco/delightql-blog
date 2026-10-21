@@ -13,7 +13,9 @@ menus:
       weight: 4
     - name: RSS
       url: "index.xml"
-theme: "xmin"
+theme:
+  - "xmin"
+  - "admonitions"
 
 permalinks:
   posts: "/post/:year/:month/:day/:slug/"
