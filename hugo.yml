@@ -1,22 +1,21 @@
 baseURL: "https://yoursite.example.com/"
-title: "My Hugo Site"
 params:
   subtitle: "Hugo is Absurdly Fast!"
-
-menu:
+title: "Delightql Language"
+menus:
   main:
     - name: Home
       url: ""
       weight: 1
-    - name: About
-      url: "about/"
+    - name: Posts
+      url: "posts/"
       weight: 2
-    - name: Categories
-      url: "categories/"
-      weight: 3
     - name: Tags
       url: "tags/"
       weight: 4
-    - name: Subscribe
+    - name: RSS
       url: "index.xml"
+theme: "xmin"
 
+permalinks:
+  posts: "/post/:year/:month/:day/:slug/"

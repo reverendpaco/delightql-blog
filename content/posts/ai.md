@@ -2,19 +2,23 @@
 date = '2026-07-25T15:22:01-04:00'
 draft = true
 title = 'Using LLMs to implement delightql'
+slug = 'llms'
+tags =  ["AI"]
 +++
 
 Delightql has been built with the help of AI. This post is a discussion of that
 word _help_ both as an accounting of the full extent to which AI was utilized
-and as a means to philosphize incoherently.
+and as a means to ramble.
 
-The best way to enumerate how AI was used is chronological, but before I do
+The best way to explain how AI was used is chronological, but before I do
 that I will drop here two true sentences that will anchor the rest of the post:
 
-- Of the 150k odd lines of Rust code that make up Delightql, I may have written 100 lines top.
+- Of the 150k odd lines of Rust code that make up Delightql, I may have written 1000 lines top.
 - The language design was 99.9% me, and the part that was not -- well, that's probably me too.
 
 ----
+
+# Mid 2025 LLMs
 
 The first AI-aided implementation of Delightql started in late July of 2025.
 But this was not the first implementation as I had spent over 10 years hacking
@@ -62,7 +66,7 @@ managers.
 So these months between July and October were funny moments of revelation and
 robosocial camraderie. Multiple times I asked myself both "Why the heck am I
 screaming at this agent for messing up my directions a NINTH time in a row?",
-and "Why the heck am I beaming with joy when the agent compliments a language
+and "Why the heck am I happy when the agent compliments a language
 choice?"
 
 What got accomplished is captured in a jj change history that I look back on
@@ -93,11 +97,13 @@ for the most part using type state techniques with trait generics, all to
 prevent earlier parts of the pipeline accessing later parts, and vice versa.
 
 From July to October, using jj as my visual narrative editor, I confidently let
-my nutso agent loose on pre-designed epics with explicit guardrails and todos.
+the agent loose on pre-designed epics with explicit guardrails and todos.
 And I would speed-read every patch and commit and steer real time.
 
 
 ---
+
+# October 2025 Generation
 
 When the October models came around my senior was replaced by a principal.  I
 needed some adjustment because I had become so used to real-time watching the
@@ -105,9 +111,8 @@ patches come in and interrupting with a "why are you doing that?". The Opus
 model 4.5 model was the first time that I felt that I was being listened to and
 that when I said something had to be done everytime a task was done, it was
 done.  Nothing is more frustrating than investing effort in a huge test corpus
-and then having the agent ignore that the NINTH time in a row --  I mean you
-should be ashamed!  The October models lowered my frustration level
-significantly.
+and then having the agent ignore that the NINTH time in a row.   The October
+models lowered my frustration level significantly.
 
 It took me a while to get used to the fact that I no longer had to look at each
 and every line that was being generated. It was also roughly around this same
@@ -117,7 +122,7 @@ worried. Luckily, judicious use of super cheap jj changes allowed me to log
 realtime.
 
 What happened at this moment was I had taken a step even further back. Before
-while I had only written 100 lines of code myself, I still knew the codebase by
+while I had only written 1000 lines of code myself, I still knew the codebase by
 heart and could reference it with my senior. After, there were huge chunks of
 new code and massive refactorings that I let happen with me just trusting. I
 learned to trust because my test corpus proved that the code was ok and hadn't
@@ -133,6 +138,8 @@ I have just as much ego as the next tech person, so part of me really wanted to
 take a stop and comb over everything by hand, but the other part of me -- the
 language designer -- was champing at the bit to actively start using delightql
 and build things.  This latter me won out. ---
+
+# May 20226 The Fable/Sol/Astra era
 
 Early 2026 opera continued to release and each was incrementally better. I
 never had that common complaint of "they are nerfing this on purpose".
@@ -207,5 +214,4 @@ for example suggesting keywords to a language that eschews them.
 
 That made me feel good for now.
 
-July 25th, 2026
 
