@@ -1,7 +1,5 @@
-baseURL: "https://yoursite.example.com/"
-params:
-  subtitle: "Hugo is Absurdly Fast!"
-title: "Delightql Language"
+baseURL: "https://blog.delightql.org/"
+title: "Delightql Programming Language"
 menus:
   main:
     - name: Home

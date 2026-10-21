@@ -1,6 +1,5 @@
 +++
 date = '2026-07-25T15:22:01-04:00'
-draft = true
 title = 'Using LLMs to implement delightql'
 slug = 'llms'
 tags =  ["AI"]
@@ -30,14 +29,14 @@ I realized that these furtive fits and starts were getting me nowhere.  This
 led to me writing a book over the next four years of a language that did not
 exist.
 
-July of 2025 was the first time I decided I wanted to bite the bullet and turn
+July of 2025 was the first time I decided I wanted to turn
 this  Borgesian artifact into a real programming language.  Being impressed
 with what I saw of the agentic terminal-based LLMs, I knew this new world of
 vibe-coding was worth giving a try and so I bit the bullet and got the Claude
 Pro plan.
 
 My first interaction was special in all those ways that first interaction are
--- memorable. I gave the model my book and some technical desicions and asked
+-- memorable. I gave the model my book and some technical decisions and asked
 it to take it as far as it could, and within two days at least half of my book
 was implemented.  Then, as part of the experiment, I unblinded myself and
 looked at the code.
